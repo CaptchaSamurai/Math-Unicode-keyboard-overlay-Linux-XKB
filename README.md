@@ -10,9 +10,9 @@ Checked on Ubuntu 20.04 after a failed attempt to install math layout with [this
 If you have Mac or Windows [this](http://insti.physics.sunysb.edu/~siegel/unicode.html) should work.
 
 ## Install
-Download mth file from this repo.
+Download <a id="raw-url" href="https://github.com/CaptchaSamurai/Math-Unicode-keyboard-overlay-Linux-XKB/blob/master/mth">mth file</a> from this repo.
 
-Paste it to /usr/share/X11/xkb/symbols.
+Paste it to /usr/share/X11/xkb/symbols:
 
 ```
 sudo cp /path/to/file/mth /usr/share/X11/xkb/symbols
