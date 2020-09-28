@@ -1,7 +1,6 @@
 # Math Unicode keyboard overlay for Linux
 Overlays keyboard layout with mathematical symbols.
 
-Your keyboard layout will look like this:
 ![mth-Layout](/images/mth_Sep_2020.png)
 
 It is not an optimal solution if you are using a keyboard other than the US - all special symbols turned by AltGr or AltGr + Shift will be altered.
