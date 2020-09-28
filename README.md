@@ -13,7 +13,7 @@ If you have Mac or Windows [this](http://insti.physics.sunysb.edu/~siegel/unicod
 ## Install
 Download mth file from this repo.
 
-Paste it to /usr/share/X11/xkb/symbols. In terminal:
+Paste it to /usr/share/X11/xkb/symbols.
 
 ```
 sudo cp /path/to/file/mth /usr/share/X11/xkb/symbols
@@ -22,7 +22,7 @@ sudo cp /path/to/file/mth /usr/share/X11/xkb/symbols
 Do not change file to mth.txt or alike.
 
 ## Turn on
-In the terminal. Make sure the new XKB file is used by running:
+Make sure the new XKB file is used by running:
 
 ```
 sudo dpkg-reconfigure xkb-data
@@ -41,7 +41,6 @@ Change your keyboard layout in system preferences.
 ## Tweaking
 Tweak by editing the mth file manually. It's pretty straightforward.
 
-In terminal:
 ```
 sudo gedit /usr/share/X11/xkb/symbols/mth
 ```
