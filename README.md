@@ -21,7 +21,7 @@ sudo cp /path/to/file/mth /usr/share/X11/xkb/symbols
 Do not change file to mth.txt or alike.
 
 ## Turn on
-Make sure the new XKB file is used by running:
+Make sure the XKB is used:
 
 ```
 sudo dpkg-reconfigure xkb-data
