@@ -3,8 +3,6 @@ Overlays keyboard layout with mathematical symbols.
 
 ![mth-Layout](/images/mth_Sep_2020.png)
 
-It is not an optimal solution if you are using a keyboard other than the US - all special symbols turned by AltGr or AltGr + Shift will be altered.
-
 Checked on Ubuntu 20.04 after a failed attempt to install math layout with [this method](https://blog.math.coffee/post/20180921/keyboard-layout/).
 
 If you have Mac or Windows [this](http://insti.physics.sunysb.edu/~siegel/unicode.html) should work.
@@ -18,7 +16,7 @@ Paste it to /usr/share/X11/xkb/symbols:
 sudo cp /path/to/file/mth /usr/share/X11/xkb/symbols
 ```
 
-Do not change file to mth.txt or alike.
+Do not add extension to the file, like mth.txt.
 
 ## Turn on
 Make sure the XKB is used:
@@ -34,8 +32,14 @@ setxkbmap -layout mth
 
 Changes will apply immediately.
 
-## Turn off
-Change your keyboard layout in system preferences.
+## Quickly moving between keyboards and turing off
+```
+setxkbmap -layout <name of your previous keyboard layout>
+```
+
+To move quickly between layouts you can assign keyboard shortcut to "setxkbmap -layout <name>" commands. Simply go to: Settings → Keyboard Shortcus.
+
+You can also manually change your keyboard layout in the system preferences.
 
 ## Tweaking
 Tweak by editing the mth file manually. It's pretty straightforward.
