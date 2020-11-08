@@ -32,7 +32,7 @@ setxkbmap -layout mth
 
 Changes will apply immediately.
 
-## Quickly moving between keyboards and turing off
+## Quickly move between keyboards
 ```
 setxkbmap -layout <name of your previous keyboard layout>
 ```
@@ -41,22 +41,22 @@ To move quickly between layouts you can assign keyboard shortcut to "setxkbmap -
 
 You can also manually change your keyboard layout in the system preferences.
 
-## Tweaking
+## Tweaking layout
 Tweak by editing the mth file manually. It's pretty straightforward.
 
 ```
 sudo gedit /usr/share/X11/xkb/symbols/mth
 ```
 
-To preview whole keyboard:
+To preview the whole keyboard:
 ```
 gkbd-keyboard-display -l mth
 ```
 
 ## Disclaimer
-I have almost no idea why & how it is working. Feedback welcome.
+I have almost no idea how it is working. Feedback is welcomed.
 
-## Thanks
+## Thanks 🙌
 Thanks to [Clive](https://blog.math.coffee/post/20180921/keyboard-layout/). I have based my mth file on his mdc (Math Dot Coffee).
 
 I have found the setxkbmap solution [here](https://blog.lobraun.de/2020/03/09/Umlauts-on-US-Keyboard-Layouts-on-Ubuntu-with-XKB/).
