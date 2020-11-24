@@ -39,7 +39,7 @@ setxkbmap -layout <name of your previous keyboard layout>
 
 To move quickly between layouts you can assign keyboard shortcut to "setxkbmap -layout xyz" commands. Simply go to: Settings → Keyboard Shortcus.
 
-You can also manually change your keyboard layout in the system preferences.
+You can also manually change your keyboard layout in the System Settings.
 
 ## Tweaking layout
 Tweak by editing the mth file manually. It's pretty straightforward.
