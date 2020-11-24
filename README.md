@@ -37,7 +37,7 @@ Changes will apply immediately.
 setxkbmap -layout <name of your previous keyboard layout>
 ```
 
-To move quickly between layouts you can assign keyboard shortcut to "setxkbmap -layout <name>" commands. Simply go to: Settings → Keyboard Shortcus.
+To move quickly between layouts you can assign keyboard shortcut to "setxkbmap -layout xyz" commands. Simply go to: Settings → Keyboard Shortcus.
 
 You can also manually change your keyboard layout in the system preferences.
 
