@@ -34,7 +34,7 @@ Changes will apply immediately.
 
 ## Quickly move between keyboards
 ```
-setxkbmap -layout <name of your previous keyboard layout>
+setxkbmap -layout <name of a keyboard layout, like "mtf" or "us">
 ```
 
 To move quickly between layouts you can assign keyboard shortcut to "setxkbmap -layout xyz" commands. Simply go to: Settings → Keyboard Shortcus.
