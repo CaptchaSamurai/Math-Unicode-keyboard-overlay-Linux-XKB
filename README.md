@@ -1,7 +1,7 @@
 # Math Unicode keyboard overlay for Linux
 Overlays keyboard layout with mathematical symbols.
 
-![mth-Layout](/images/mth_Sep_2020.png)
+![mth-Layout](/images/mth_Jan_2021.png)
 
 Checked on Ubuntu 20.04 after a failed attempt to install math layout with [this method](https://blog.math.coffee/post/20180921/keyboard-layout/).
 
