@@ -37,24 +37,24 @@ Changes will apply immediately.
 setxkbmap -layout <name of a keyboard layout, like "mth" or "us">
 ```
 
-To move quickly between layouts you can assign keyboard shortcut to "setxkbmap -layout xyz" commands. Simply go to: Settings → Keyboard Shortcus.
+To move quickly between layouts you can assign keyboard shortcut to "setxkbmap -layout mth" command. Simply go to: Settings → Keyboard Shortcus.
 
-You can also manually change your keyboard layout in the System Settings.
+You can also change your keyboard layout in the System Settings.
 
 ## Tweaking layout
-Tweak by editing the mth file manually. It's pretty straightforward.
+Edit the mth file in text editor (don't forget to make a backup copy):
 
 ```
 sudo gedit /usr/share/X11/xkb/symbols/mth
 ```
 
-To preview the whole keyboard:
+To preview layout:
 ```
 gkbd-keyboard-display -l mth
 ```
 
 ## Disclaimer
-I have almost no idea how it is working. Feedback is welcomed.
+I have almost no idea how it works. Feedback is welcomed.
 
 ## Thanks 🙌
 Thanks to [Clive](https://blog.math.coffee/post/20180921/keyboard-layout/). I have based my mth file on his mdc (Math Dot Coffee).
