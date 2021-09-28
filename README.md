@@ -1,5 +1,5 @@
 # Math Unicode keyboard overlay for Linux
-Overlays keyboard layout with mathematical symbols.
+Keyboard layout with mathematical symbols.
 
 ![mth-Layout](/images/mth_Jan_2021.png)
 
