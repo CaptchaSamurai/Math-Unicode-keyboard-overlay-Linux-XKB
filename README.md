@@ -19,13 +19,6 @@ sudo cp /path/to/file/mth /usr/share/X11/xkb/symbols
 Do not add extension to the file, like mth.txt.
 
 ## Turn on
-Make sure the XKB is used:
-
-```
-sudo dpkg-reconfigure xkb-data
-```
-
-Apply:
 ```
 setxkbmap -layout mth
 ```
@@ -33,11 +26,11 @@ setxkbmap -layout mth
 Changes will apply immediately.
 
 ## Quickly move between keyboards
+To move quickly between layouts assign keyboard shortcut (Settings → Keyboard Shortcus) to the following command:
+
 ```
 setxkbmap -layout <name of a keyboard layout, like "mth" or "us">
 ```
-
-To move quickly between layouts you can assign keyboard shortcut to "setxkbmap -layout mth" command. Simply go to: Settings → Keyboard Shortcus.
 
 You can also change your keyboard layout in the System Settings.
 
