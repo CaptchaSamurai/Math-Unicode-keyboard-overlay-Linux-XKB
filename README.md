@@ -3,9 +3,9 @@ Keyboard layout with mathematical symbols.
 
 ![mth-Layout](/images/mth_Jan_2021.png)
 
-Checked on Ubuntu 20.04 after a failed attempt to install math layout with [this method](https://blog.math.coffee/post/20180921/keyboard-layout/).
+Works on Ubuntu 20.04 after a failed attempt from [this instructions](https://blog.math.coffee/post/20180921/keyboard-layout/).
 
-There is analog thing for [Mac](http://insti.physics.sunysb.edu/~siegel/unicode.html) and [Windows](http://terathon.com/blog/a-mathematical-keyboard-layout/).
+Other OS: [Mac](http://insti.physics.sunysb.edu/~siegel/unicode.html), [Windows](http://terathon.com/blog/a-mathematical-keyboard-layout/).
 
 ## Install
 Download <a id="raw-url" href="https://github.com/CaptchaSamurai/Math-Unicode-keyboard-overlay-Linux-XKB/blob/master/mth">mth file</a> from this repo.
