@@ -1,7 +1,7 @@
 # Math Unicode keyboard overlay for Linux
 Keyboard layout with mathematical symbols.
 
-![mth-Layout](/images/mth_Jan_2021.png)
+![mth-Layout](/images/mth_v2_Sep_2023.png)
 
 Works on Ubuntu 20.04 after a failed attempt from [this instructions](https://blog.math.coffee/post/20180921/keyboard-layout/).
 
@@ -25,8 +25,8 @@ setxkbmap -layout mth
 
 Changes will apply immediately.
 
-## Quickly move between keyboards
-To move quickly between layouts assign keyboard shortcut (Settings → Keyboard Shortcus) to the following command:
+## Quickly switch between keyboards
+To switch quickly between layouts you can assign a keyboard shortcut (Settings → Keyboard Shortcuts) to the following command:
 
 ```
 setxkbmap -layout <name of a keyboard layout, like "mth" or "us">
@@ -35,7 +35,7 @@ setxkbmap -layout <name of a keyboard layout, like "mth" or "us">
 You can also change your keyboard layout in the System Settings.
 
 ## Tweaking layout
-Edit the mth file in text editor (don't forget to make a backup copy):
+Edit the mth file (don't forget to make a backup copy):
 
 ```
 sudo gedit /usr/share/X11/xkb/symbols/mth
