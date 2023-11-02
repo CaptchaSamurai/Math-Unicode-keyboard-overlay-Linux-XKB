@@ -2,7 +2,7 @@
 The customized math keyboard layout is designed to streamline your mathematical writing everywhere.
 With a few easy steps, you will be able to type ∀, ℕ, Σ, ∫, ω and other math symbols as easily as you type alphabet letters.
 
-![mth-Layout](/images/mth_v2_1_Nov_2023.png)
+![mth-Layout](/images/mth_v4_Nov_2023.png)
 
 If you don't have Linux check out math keyboard overlay for [Mac](http://insti.physics.sunysb.edu/~siegel/unicode.html) or [Windows](https://web.archive.org/web/20230503051817/https://terathon.com/blog/a-mathematical-keyboard-layout/).
 
