@@ -39,7 +39,7 @@ xkb_symbols "mdc" {
  key <AC01> { [ a, A, U03B1, U2933 ] };
  key <AC02> { [ s, S, U03C3, U03A3 ] };
  key <AC03> { [ d, D, U03B4, U211A ] };
- key <AC04> { [ f, F, U03C6, U0394 ] };
+ key <AC04> { [ f, F, U03C6, U21A6 ] };
  key <AC05> { [ g, G, U2202, U2207 ] };
  key <AC06> { [ h, H, U03B8, U2243 ] };
  key <AC07> { [ j, J, U222B, U0131 ] };
