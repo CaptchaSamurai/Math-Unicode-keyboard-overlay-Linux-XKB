@@ -1,0 +1,64 @@
+// $XKeyboardConfig: xkbdesc/symbols/latin,v 1.3 2004/10/09 17:40:26 svu Exp $
+
+// Common Latin alphabet layout
+//
+// $XFree86: xc/programs/xkbcomp/symbols/latin,v 1.3 2002/12/20 20:18:34 paulo Exp $
+
+default partial
+
+xkb_symbols "mdc" {
+
+ key <TLDE> { [ grave, asciitilde, U22A2, U22A3 ] };
+ key <AE01> { [ 1, exclam, U00B9, U21AF ] };
+ key <AE02> { [ 2, at, U00B2, U00BD ] };
+ key <AE03> { [ 3, numbersign, U00B3, U00A3 ] };
+ key <AE04> { [ 4, dollar, U2074, U20AC ] };
+ key <AE05> { [ 5, percent, U2075, U00B7 ] };
+ key <AE06> { [ 6, asciicircum, U2076, U221A ] };
+ key <AE07> { [ 7, ampersand, U2077, U2232 ] };
+ key <AE08> { [ 8, asterisk, U2078, U221E ] };
+ key <AE09> { [ 9, parenleft, U2079, U207B ] };
+ key <AE10> { [ 0, parenright, U2070, U2205 ] };
+ key <AE11> { [ minus, underscore, U2013, U2014 ] };
+ key <AE12> { [ equal, plus, U2260, U2248 ] };
+
+ key <AD01> { [ q, Q, U2203, U2200 ] };
+ key <AD02> { [ w, W, U03C9, U03A9 ] };
+ key <AD03> { [ e, E, U03B5, U2261 ] };
+ key <AD04> { [ r, R, U03C1, U211D ] };
+ key <AD05> { [ t, T, U03C4, U00DE ] };
+ key <AD06> { [ y, Y, U2190, U21D0 ] };
+ key <AD07> { [ u, U, U2194, U21D4 ] };
+ key <AD08> { [ i, I, U2192, U21D2 ] };
+ key <AD09> { [ o, O, U03B3, U0393 ] };
+ key <AD10> { [ p, P, U03C0, U03A0 ] };
+ key <AD11> { [ bracketleft, braceleft, U27E8, dead_ogonek ] };
+ key <AD12> { [ bracketright, braceright, U27E9, dead_macron ] };
+ key <BKSL> { [ backslash, U007C, dead_circumflex, dead_caron ] };
+
+ key <AC01> { [ a, A, U03B1, U2933 ] };
+ key <AC02> { [ s, S, U03C3, U03A3 ] };
+ key <AC03> { [ d, D, U03B4, U211A ] };
+ key <AC04> { [ f, F, U03C6, U21A6 ] };
+ key <AC05> { [ g, G, U2202, U2207 ] };
+ key <AC06> { [ h, H, U03B8, U2243 ] };
+ key <AC07> { [ j, J, U222B, U0131 ] };
+ key <AC08> { [ k, K, U03BA, U03BE ] };
+ key <AC09> { [ l, L, U03BB,  U2113 ] };
+ key <AC10> { [ semicolon, colon, dead_diaeresis, dead_tilde ] };
+ key <AC11> { [ apostrophe, quotedbl, dead_acute, dead_grave ] };
+
+ key <AB01> { [ z, Z, U2227, U2228 ] };
+ key <AB02> { [ x, X, U2229, U222A ] };
+ key <AB03> { [ c, C, U2208, U2209 ] };
+ key <AB04> { [ v, V, U2282, U2284 ] };
+ key <AB05> { [ b, B, U03B2, U03A8 ] };
+ key <AB06> { [ n, N, U00AC, U2115 ] };
+ key <AB07> { [ m, M, U03BC, U03B7 ] };
+ key <AB08> { [ comma, less, U2234, U2264 ] };
+ key <AB09> { [ period, greater, U25A1, U2265 ] };
+ key <AB10> { [ slash, question, U2124, U221D ] };
+
+ include "level3(ralt_switch)"
+
+};
