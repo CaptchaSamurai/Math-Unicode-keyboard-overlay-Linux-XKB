@@ -1,4 +1,4 @@
-# Math keyboard layout for Linux
+# Math keyboard layout for X Window System (e.g. Ubuntu 22)
 The customized math keyboard layout is designed to streamline your mathematical writing everywhere.
 With a few easy steps, you will be able to type ∀, ℕ, Σ, ∫, ω and other math symbols as easily as you type alphabet letters.
 
@@ -48,6 +48,9 @@ gkbd-keyboard-display -l mth
 
 ## Potential issues
 The `mth` file has no extension. Do **not** add any extension to this file, like `mth.txt`.
+
+## Problem with Wayland
+I don't know how to install a new layout in Wayland (e.g. Ubuntu 24 uses it). I have tried adding mth file as above and then editing /usr/share/X11/xkb/rules/evdev.xml in an obvious way as this post from [stigok blog](/usr/share/X11/xkb/rules/evdev.xml) suggest. This didn't work. Suggestions appreciated!
 
 ## History
 The mth layout evolves. You can find deprecated layouts [here](https://github.com/CaptchaSamurai/Math-Unicode-keyboard-overlay-Linux-XKB/tree/master/old_layouts). 
